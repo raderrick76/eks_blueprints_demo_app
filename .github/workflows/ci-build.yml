@@ -37,7 +37,7 @@ jobs:
       with:
         push: true
         platforms: linux/amd64,linux/arm64
-        tags: lkravi/eks_bp_demo:${{ steps.prep.outputs.VERSION }}, lkravi/eks_bp_demo:${{ steps.prep.outputs.BUILD_DATE }}
+        tags: raderrick76/eks_bp_demo:${{ steps.prep.outputs.VERSION }}, raderrick76/eks_bp_demo:${{ steps.prep.outputs.BUILD_DATE }}
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}

@@ -1,4 +1,4 @@
-module github.com/lkravi/eks_blueprints_demo
+module github.com/raderrick76/eks_blueprints_demo
 
 go 1.18
 
